@@ -1,0 +1,1 @@
+SQL is one of the most popular language used to interface with databases and is therefore an extremely marketable skill to learn or at least be aware of. This workshop will give attendees a gentle introduction to databases and how to use SQL to make queries. No previous coding, SQL, or database experience is required.  
