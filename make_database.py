@@ -25,7 +25,7 @@ def clean_names(df):
     df.columns = L
 
 def make_db(data):
-    conn = sqlite3.connect("leading_cases_of_death.sqlite")
+    conn = sqlite3.connect("leading_causes_of_death.sqlite")
     cur = conn.cursor()
     
     # Get unique years
@@ -139,10 +139,10 @@ if __name__ == "__main__":
     print("Making SQLite database...")
     make_db(data)
     try:
-        conn = sqlite3.connect("leading_cases_of_death.sqlite")
+        conn = sqlite3.connect("leading_causes_of_death.sqlite")
         df_state = pd.read_sql_query("SELECT * FROM State", conn)
         if len(df_state) > 0:
-            print("Database named leading_cases_of_death.sqlite successfully created")
+            print("Database named leading_causes_of_death.sqlite successfully created")
         else:
             print("Problem creating database")
     except:
