@@ -2,7 +2,6 @@
 
 **Python, SQL, and Pandas: Oh My!**
 
-
 SQL is the most popular programming language for generating and interacting with relational databases and is therefore an extremely useful language to learn.
 
 This OHSU Library BioData Club workshop will provide a gentle introduction to relational databases and how to use SQL to make queries. Instructors, Luci Moore and Dan Yaeger will guide attendees through using  Python to create a database and query data in SQLite.  At the end of the workshop, attendees will have access to a Jupyter Notebook and a basic script that they can modify to create and query their own databases.
@@ -12,10 +11,10 @@ Attendees should bring a laptop and, if possible, have downloaded Anaconda3 befo
 Everyone is welcome!
 
 Friday, June 21
-
 4:30 - 6:00
-
 BICC 124
+
+No software installation is necessary! Click the binder link to launch the notebook and get started: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/laderast/sql_workshop/master?filepath=sqlite_workshop.ipynb)
 
 
 BioData Club is a co-learning community supported by the OHSU Library and DMICE.
